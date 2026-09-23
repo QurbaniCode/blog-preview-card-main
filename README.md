@@ -4,7 +4,7 @@ A responsive blog preview card built as a Frontend Mentor challenge using HTML5 
 
 ## Screenshot
 
-![Blog Preview Card](./preview.gpg)
+![Blog Preview Card](./preview.jpg)
 
 ## Links
 
