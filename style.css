@@ -6,7 +6,6 @@
   font-weight: 300 900;
   font-display: swap;
 }
-
 @font-face {
   font-family: "Figtree";
   src: url("../fonts/Figtree-Italic-VariableFont_wght.woff2")
@@ -22,14 +21,14 @@
   --color-gray-950: #111111;
   --color-white: #ffffff;
 
-  /* Shadows */
+    /* Shadows */
   --shadow-card: 8px 8px 0 var(--color-gray-950);
   --shadow-card-hover: 12px 12px 0 var(--color-gray-950);
 
-  /* Font */
+    /* Font */
   --font-family-base: "Figtree", sans-serif;
 
-  /* Typography */
+    /* Typography */
   --text-1-size: 24px;
   --text-1-line-height: 150%;
   --text-1-weight: 800;
@@ -44,13 +43,13 @@
 
   --text-3-bold-weight: 800;
 
-  /* Spacing */
+    /* Spacing */
   --spacing-300: 24px;
   --spacing-150: 12px;
   --spacing-100: 8px;
   --spacing-50: 4px;
 
-  /* Border radius */
+    /* Border radius */
   --border-radius: 20px;
   --border-radius-md: 4px;
   --border-radius-xl: 10px;
@@ -99,7 +98,6 @@ body{
     gap: var(--spacing-150);
     padding: var(--spacing-150) 0; 
 }
-
 .card-content-category{
   align-self: flex-start;
 
@@ -112,14 +110,12 @@ body{
   font-size: var(--text-3-size);
   font-weight: var(--text-3-bold-weight);
   line-height: var(--text-3-line-height);
-
 }
 .card-content-date{
     color: var(--color-gray-950);
     font-size: var(--text-3-size);
     font-weight: var(--text-3-weight);
     line-height: var(--text-3-line-height);
-
 }
 .card-content-title{
  color: var(--color-gray-950);
@@ -146,10 +142,9 @@ body{
     gap: var(--spacing-150);
 }
 .card-author-img{
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50% ;
-
 }
 .card-author-name{
     color: var(--color-gray-950);
@@ -159,7 +154,8 @@ body{
 
 
 @media (prefers-reduced-motion: reduce) {
-    .card {
+    .card,
+    .card-content-title {
         transition: none;
     }
 }
