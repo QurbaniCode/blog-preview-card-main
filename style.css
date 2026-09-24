@@ -71,14 +71,10 @@ body{
     background-color: var(--color-yellow);
     font-family: var(--font-family-base);
 }
-/* main{
-    width: 100%;
-    padding: 0 var(--spacing-300);
-} */
 
 .card{
     width: 100%;
-    max-width: 384px;
+    max-width: 24rem;
     padding: var(--spacing-300);
 
     background-color: var(--color-white);
@@ -86,7 +82,7 @@ body{
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-card);
 
-    transition: box-shadow 0.3 ease;
+    transition: box-shadow 0.3s ease;
 }
 .card:hover{
     box-shadow: var(--shadow-card-hover);
@@ -159,4 +155,11 @@ body{
     color: var(--color-gray-950);
     font-size: var(--text-3-bold-size);
     font-weight: var(--text-3-bold-weight);
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .card {
+        transition: none;
+    }
 }
